@@ -11,7 +11,7 @@ public class Main {
         */
        int a; //declaration
        a=10; //assignment
-       int b = 20; //initialization
+       int b = 2; //initialization
 
       //swapping variables(you introduce a third variable)
        int c = b;
@@ -42,6 +42,19 @@ public class Main {
         System.out.println("My favorite dish is: " +dish);
 
 
+        /*Expressions in java
+        * Expression -> combination of operators and operands.
+        * Operands -> values, variables, number, quantity.
+        * Operators -> -,+,%,/,==,*.
+        * */
+
+        int d = a + b;
+        int e = a - b;
+        int f = a%b;
+
+        System.out.println(d);
+        System.out.println(e);
+        System.out.println(f);
 
     }
 }
