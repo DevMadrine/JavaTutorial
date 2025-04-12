@@ -18,4 +18,11 @@ public class Car {
         this.wheels = wheels;
         this.mirrors = mirrors;
     }
+
+
+    //toString
+    public String toString(){
+        String myString = name + "\n" + wheels + "\n" +mirrors + "\n" +doors;
+        return myString;
+    }
 }

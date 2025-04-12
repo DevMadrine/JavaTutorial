@@ -15,5 +15,10 @@ public class Main {
         System.out.println(car1.name);
         System.out.println(car1.wheels);
         System.out.println(car1.mirrors);
+
+
+        //toString() method
+        System.out.println(car.toString());//explicitly
+        System.out.println(car); //implicitly
     }
 }
