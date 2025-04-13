@@ -6,7 +6,8 @@ public class Friend {
     static String occupation = "Teachers";
 
     Friend(String name){
-        numberOfFriends++;
+        this.name = name;
+        numberOfFriends ++;
     }
 
     static int display(){
